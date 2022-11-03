@@ -1,3 +1,19 @@
-# FdF
+# 42-fdf
+A basic graphics program that displays a 3d wire-style height map.
 
-Tous les programmes que vous avez écris jusqu'à maintenant s'exécutaient uniquement en mode texte dans votre terminal. Découvrons maintenant quelque chose de plus excitant : comment ouvrir une fenêtre graphique et dessiner dedans ? Pour commencer votre voyage au pays de la programmation graphique, FdF vous propose de représenter le maillage en fils de fer d'un terrain en 3D.
+Visual example below!
+
+Developed:
+
+Explicit colors as defined by a file.
+Color default to a heat-map style gradient, of which the magnitude of the colors and scaling modifiers are defined macros.
+Very fast rendering.
+
+Using hotkeys, the user can:
+Rotate, pane, and increase the zoom level.
+
+Does not crash or leak.
+
+Created using very limited access to normal C function (Or function that I created using this limitation, as found in libft), alongside with the minilibx graphics library.
+
+![Mars heatmap image](https://cdn.discordapp.com/attachments/118591743980601344/509822002106728467/Screen_Shot_2018-11-07_at_12.10.14_PM.png)
